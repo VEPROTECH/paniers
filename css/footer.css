@@ -1,0 +1,27 @@
+#footer_web{
+    display: block;
+}
+#footer_mobile{
+    display: none;
+}
+
+#search_mobile{
+    display: none;
+}
+
+@media (max-width: 640px) 
+{
+    #footer_web
+    {
+        display: none;
+    }
+    #footer_mobile
+    {
+        display: block;
+    }
+
+    #search_mobile
+    {
+        display: block;
+    }
+}
